@@ -6,3 +6,4 @@ jobs:
       - getmeta: meta get foo
     requires: 
       - ~sd@173:main
+      - ~commit
