@@ -3,6 +3,6 @@ shared:
 jobs:
   triggeredJob:
     steps:
-      - echohello: echo hello
+      - getmeta: meta get foo
     requires: 
       - ~sd@173:main
