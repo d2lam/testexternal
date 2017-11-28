@@ -4,4 +4,5 @@ jobs:
   triggeredJob:
     steps:
       - echohello: echo hello
-    requires: sd@173:main
+    requires: 
+      - ~sd@173:main
