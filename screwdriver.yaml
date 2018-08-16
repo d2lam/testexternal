@@ -2,10 +2,6 @@ shared:
   image: node:6
 jobs:
   triggeredJob:
-    steps:
-      - getmeta: meta get foo
-      - setmeta2: meta set foo barrrr2
-      - overridemeta: meta get foo 
     requires: 
       - ~sd@173:main
       - ~commit
